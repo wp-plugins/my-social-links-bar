@@ -2,7 +2,7 @@
 Contributors: fdias.webdev
 Donate link: http://flechaweb.com.br/
 Tags: social, links, bar, facebook, myspace, lastfm
-Requires at least: 2.0
+Requires at least: 2.6
 Tested up to: 3.0
 Stable tag: 0.5
 
