@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mySocialLinksBar>
+	<links>
+		<link class="feed" img="">materialcorrosivo.com</link>
+		<link class="facebook" img="">fzerodj</link>
+		<link class="youtube" img="">fzerocutz</link>
+		<link class="twitter" img=""></link>
+		<link class="myspace" img="">fzerocutz</link>
+		<link class="yahoo" img="">djfzero</link>
+		<link class="lastfm" img=""></link>
+		<link class="vimeo" img=""></link>
+		<link class="blogger" img=""></link>
+		<link class="delicious" img=""></link>
+		<link class="flickr" img="">djfzero</link>
+		<link class="picasa" img=""></link>
+		<link class="linkedin" img=""></link>
+	</links>
+	<urls>
+		<url class="feed"/>
+		<url class="facebook">http://facebook.com/</url>
+		<url class="youtube">http://youtube.com/</url>
+		<url class="twitter">http://twitter.com/</url>
+		<url class="myspace">http://myspace.com/</url>
+		<url class="yahoo">http://yahoo.com/</url>
+		<url class="lastfm">http://lastfm.com/</url>
+		<url class="vimeo">http://vimeo.com/</url>
+		<url class="blogger">http://blogpost.com/</url>
+		<url class="delicious">http://delicious.com/</url>
+		<url class="flickr">http://flickr.com/photos/</url>
+		<url class="picasa">http://picasaweb.google.com/</url>
+		<url class="linkedin">http://linkedin.com/pub/</url>
+	</urls>
+	<configuration>
+		<path desc="Main Path">./</path>
+		<path_img desc="Image Path">icons/default/</path_img>
+		<modal desc="Modal (to implements)">0</modal>
+		<minimized desc="Bar Load Minimized">0</minimized>
+		<positionx desc="Horizontal Bar Position">right</positionx>
+		<positiony desc="Vertical Bar Position">bottom</positiony>
+		<label desc="Label Bar">Click</label>
+		<label_min desc="Label Bar Minimized">My Links</label_min>
+	</configuration>
+</mySocialLinksBar>

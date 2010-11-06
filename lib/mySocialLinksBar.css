@@ -1,0 +1,97 @@
+@CHARSET "UTF-8";
+
+#mySocialLinksBar {
+	position: fixed;
+	display: none;
+	overflow: hidden;
+	width: auto;
+	min-width: 3px;
+	height: 24px;
+	margin: 0;
+	margin: 0 10px;
+	/*border: 0px solid #999;*/
+	padding: 3px 5px;
+	background-color: #CFCFCF;
+	font-family: 'Verdana';
+	font-size: 10px;
+}
+
+#mySocialLinksBar div {
+	float: left;
+	padding: 0px 7px;
+}
+
+#mySocialLinksBar a {
+	text-decoration: none;
+	color: #000;
+	/* upper case */
+}
+
+#mySocialLinksBar img {
+	border: none;
+}
+
+#mySocialLinksBarLabel {
+	float:left;
+	height: 19px !important;
+	padding: 4px 2px 1px 2px !important;
+}
+
+
+/**********************
+ * Form Configurations
+ *********************/
+
+#mySocialLinksBar-form div {
+	clear: both;
+}
+
+#mySocialLinksBar-form div div {
+	clear: both;
+	height: 40px;
+	padding: 0px 7px;
+	font-size: 18px !important;
+}
+
+#mySocialLinksBar-form div div.bar-config {
+	padding-left: 41px; 
+}
+
+#mySocialLinksBar-form hr, #mySocialLinksBar-form h3 {
+	clear: both;
+	margin: 27px 0;
+}
+
+#mySocialLinksBar-form div div img {
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+#mySocialLinksBar-form div div span {
+	float: left;
+	display: block;
+	width: 280px;
+	padding-top: 12px;
+}
+
+#mySocialLinksBar-form div div input {
+	float: left;
+	width: 280px;
+	height: 22px;
+	font-size: 16px;
+}
+
+#mySocialLinksBar-form div div select {
+	float: left;
+	width: 220px;
+	height: 29px;
+	font-size: 16px;
+}
+
+#mySocialLinksBar-form div div #save {
+	width: 100px;
+	height: 30px;
+	margin: 25px 0 30px 40px;
+	font-size: 16px;
+}
