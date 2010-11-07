@@ -39,6 +39,7 @@ The empty social media links won't be visible in the bar.
 == Changelog ==
 
 = 0.6 =
+Fixed bugs to load xml and form in admin wordpress
 Blogspot link fixed.
 
 
