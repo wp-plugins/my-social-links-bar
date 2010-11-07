@@ -17,9 +17,9 @@ class mySocialLinksBar {
 		wp_deregister_script('jquery');
 		wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js', false, '1.4.2');
 		wp_enqueue_script('jquery');
-		wp_register_script('mySocialLinksBar', WP_PLUGIN_URL . '/my-social-links-bar/lib/mySocialLinksBar.js', false, false);
+		wp_register_script('mySocialLinksBar', WP_PLUGIN_URL . '/mySocialLinksBar/lib/mySocialLinksBar.js', false, false);
 		wp_enqueue_script('mySocialLinksBar');
-		wp_register_style('mySocialLinksBarCSS', WP_PLUGIN_URL . '/my-social-links-bar/lib/mySocialLinksBar.css');
+		wp_register_style('mySocialLinksBarCSS', WP_PLUGIN_URL . '/mySocialLinksBar/lib/mySocialLinksBar.css');
 		wp_enqueue_style( 'mySocialLinksBarCSS');
 	}
 
@@ -27,7 +27,7 @@ class mySocialLinksBar {
 	 * REGISTERING TOOLBAR LOAD LIB IN WP BLOG 
 	 */
 	public function load() {
-		wp_register_script('mySocialLinksBar_wp_load', WP_PLUGIN_URL . '/my-social-links-bar/mySocialLinksBar_wp_load.js', false, false);
+		wp_register_script('mySocialLinksBar_wp_load', WP_PLUGIN_URL . '/mySocialLinksBar/mySocialLinksBar_wp_load.js', false, false);
 		wp_enqueue_script('mySocialLinksBar_wp_load');
 	}
 
@@ -39,7 +39,7 @@ class mySocialLinksBar {
 	 * REGISTERING LIB TO ADMIN PAGE 
 	 */
 	public function adminScript() {
-		wp_register_script('mySocialLinksBar_wp_admin', WP_PLUGIN_URL . '/my-social-links-bar/mySocialLinksBar_wp_admin.js', false, false);
+		wp_register_script('mySocialLinksBar_wp_admin', WP_PLUGIN_URL . '/mySocialLinksBar/mySocialLinksBar_wp_admin.js', false, false);
 		wp_enqueue_script('mySocialLinksBar_wp_admin');
 	}
 

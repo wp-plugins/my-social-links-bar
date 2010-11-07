@@ -4,7 +4,7 @@ Donate link: http://flechaweb.com.br/
 Tags: social, links, bar, facebook, myspace, lastfm
 Requires at least: 2.6
 Tested up to: 3.0
-Stable tag: 0.5
+Stable tag: 0.6
 
 An WP Plugin that show/hidde a toolbar with social links of the wp blog/site owner
 
@@ -38,6 +38,10 @@ The empty social media links won't be visible in the bar.
 
 == Changelog ==
 
+= 0.6 =
+Blogspot link fixed.
+
+
 = 0.5 =
-First version of this plugin. The bar can be configurable in position (top/bottom and left/right) and what social medias you can use.
+First avaiable beta version of this plugin. The bar can be configurable in position (top/bottom and left/right) and what social medias you can use.
 

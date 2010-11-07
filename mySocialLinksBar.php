@@ -3,10 +3,10 @@
 Plugin Name: My Social Links Bar
 Plugin URI: http://mySocialLinksBar.flechaweb.com.br
 Description: An WP Plugin that show/hidde a toolbar with social links of the wp blog/site owner 
-Version: 0.5
+Version: 0.6
 Author: Flechaweb Developing 
 Author URI: http://www.flechaweb.com.br
-License: ( ???? ) GPL2
+License: GPL2
 
 This program is free software; you can redistribute it and/or modify 
 it under the terms of the GNU General Public License as published by 

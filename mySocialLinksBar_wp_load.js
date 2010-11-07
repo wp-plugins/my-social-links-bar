@@ -6,6 +6,6 @@
  
 $(document).ready( function() { 
 	mySocialLinksBar = new mySocialLinksBar();
-	mySocialLinksBar.setPath('./wp-content/plugins/my-social-links-bar/lib/');
+	mySocialLinksBar.setPath('/wp-content/plugins/mySocialLinksBar/lib/');
 	mySocialLinksBar.load();
 });
