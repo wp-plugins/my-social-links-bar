@@ -27,6 +27,9 @@ In My Social Links Bar the WP owner will be able to:
 1. Unzip `my-social-links-bar` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
+== Screenshots ==
+1. Bar in wp blog
+2. Bar Configuration
 
 == Frequently Asked Questions ==
 
