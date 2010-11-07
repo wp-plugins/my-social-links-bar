@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mySocialLinksBar>
 	<links>
-		<link class="feed" img="">http://materialcorrosivo.com/feed</link>
-		<link class="facebook" img="">fzerodj</link>
-		<link class="youtube" img="">fzerocutz</link>
+		<link class="feed" img=""></link>
+		<link class="facebook" img=""></link>
+		<link class="youtube" img=""></link>
 		<link class="twitter" img=""></link>
-		<link class="myspace" img="">fzerocutz</link>
-		<link class="yahoo" img="">djfzero</link>
+		<link class="myspace" img=""></link>
+		<link class="yahoo" img=""></link>
 		<link class="lastfm" img=""></link>
 		<link class="vimeo" img=""></link>
-		<link class="blogger" img="">macosxstation</link>
+		<link class="blogger" img=""></link>
 		<link class="delicious" img=""></link>
-		<link class="flickr" img="">djfzero</link>
+		<link class="flickr" img=""></link>
 		<link class="picasa" img=""></link>
 		<link class="linkedin" img=""></link>
 	</links>
