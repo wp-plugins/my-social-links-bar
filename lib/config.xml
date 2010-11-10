@@ -37,7 +37,7 @@
 		<minimized desc="Load Minimized">0</minimized>
 		<positionx desc="Horizontal Position">right</positionx>
 		<positiony desc="Vertical Position">top</positiony>
-		<label desc="Label">Click</label>
+		<label desc="Label">Click!</label>
 		<label_min desc="Minimized Label">My Links</label_min>
 	</configuration>
 </mySocialLinksBar>
