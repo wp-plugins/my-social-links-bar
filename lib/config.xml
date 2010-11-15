@@ -31,13 +31,13 @@
 		<url class="linkedin">http://linkedin.com/pub/</url>
 	</urls>
 	<configuration>
-		<path desc="Main Path">./</path>
-		<path_img desc="Image Path">icons/default/</path_img>
-		<modal desc="Modal (to implements)">0</modal>
-		<minimized desc="Load Minimized">0</minimized>
-		<positionx desc="Horizontal Position">right</positionx>
-		<positiony desc="Vertical Position">top</positiony>
-		<label desc="Label">Click!</label>
-		<label_min desc="Minimized Label">My Links</label_min>
+		<path desc="Main Path"></path>
+		<path_img desc="Image Path"></path_img>
+		<modal desc="Modal (to implements)"></modal>
+		<minimized desc="Load Minimized"></minimized>
+		<positionx desc="Horizontal Position"></positionx>
+		<positiony desc="Vertical Position"></positiony>
+		<label desc="Label"></label>
+		<label_min desc="Minimized Label"></label_min>
 	</configuration>
 </mySocialLinksBar>
