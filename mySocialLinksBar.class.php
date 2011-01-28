@@ -13,10 +13,18 @@ class mySocialLinksBar {
 	 * INIT PROCESS - REGISTERING: JQUERY (correctly) LIB / SOCIAL MEDIA TOOLBAR LIB 
 	 */
 	public function init() {
+
+		wp_enqueue_script('jquery');
+
 		// disabling original jquery file, error in file of version 3.0.1, registering new file
-		wp_deregister_script('jquery');
+        //wp_deregister_script('jquery');
+        /*
+		wp_register_script('jquery', WP_PLUGIN_URL . '/my-social-links-bar/lib/jquery/jquery.js', false, '1.4.2');
+		wp_enqueue_script('jquery');
+
 		wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js', false, '1.4.2');
 		wp_enqueue_script('jquery');
+        */
 		wp_register_script('mySocialLinksBar', WP_PLUGIN_URL . '/my-social-links-bar/lib/mySocialLinksBar.js', false, false);
 		wp_enqueue_script('mySocialLinksBar');
 		wp_register_style('mySocialLinksBarCSS', WP_PLUGIN_URL . '/my-social-links-bar/lib/mySocialLinksBar.css');

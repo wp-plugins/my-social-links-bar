@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: fdias.webdev
 Donate link: http://flechaweb.com.br/
-Tags: social, links, toolbar, facebook, myspace, lastfm
+Tags: social, links, toolbar, facebook, twitter, myspace, lastfm, widget
 Requires at least: 2.6
 Tested up to: 3.0
-Stable tag: 0.7
+Stable tag: 0.8
 
 An WP Plugin that show/hidde a toolbar with social links of the wp blog/site owner
 
@@ -42,6 +42,10 @@ Normally this libs are enabled by default.
 
 
 == Changelog ==
+
+= 0.8 =
+The plugin now its using the original JQuery lib from Wordpress. 
+It had a bug when the plugin was using its JQuery lib, in some actions of wordpress.
 
 = 0.7 =
 Chagend the way to store the data about social profiles and configuration, 
