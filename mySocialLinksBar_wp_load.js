@@ -5,11 +5,11 @@
 
 var mySocialLinksBar = new mySocialLinksBar();
 
-$(document).ready( function() { 
+jQuery(document).ready( function() { 
 
 	mySocialLinksBar.setPath('./wp-content/plugins/my-social-links-bar/lib/');
 
-	$.ajax({
+	jQuery.ajax({
 
 		type: "GET",
 		dataType: "xml",
