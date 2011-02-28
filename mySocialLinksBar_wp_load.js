@@ -4,16 +4,17 @@
  **********************************************/
 
 var mySocialLinksBar = new mySocialLinksBar();
+var mySocialLinksBarWPPath = './';
 
 jQuery(document).ready( function() { 
 
-	mySocialLinksBar.setPath('./wp-content/plugins/my-social-links-bar/lib/');
+	mySocialLinksBar.setPath(mySocialLinksBarWPPath + '/my-social-links-bar/lib/');
 
 	jQuery.ajax({
 
 		type: "GET",
 		dataType: "xml",
-		url : "./wp-content/plugins/my-social-links-bar/mySocialLinksBar_wp_xml.php",
+		url : mySocialLinksBarWPPath + "/my-social-links-bar/mySocialLinksBar_wp_xml.php",
 		
 		error : function() {
 			return false;
