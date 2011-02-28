@@ -4,7 +4,7 @@ Donate link: http://flechaweb.com.br/
 Tags: social, links, toolbar, facebook, twitter, myspace, lastfm, widget
 Requires at least: 2.6
 Tested up to: 3.0
-Stable tag: 0.9
+Stable tag: 0.9.1
 
 An WP Plugin that show/hidde a toolbar with social links of the wp blog/site owner
 
@@ -42,6 +42,9 @@ Normally this libs are enabled by default.
 
 
 == Changelog ==
+
+= 0.9.1=
+Fix the bug that the bar didn't appeared in any pages that are not the home/index page
 
 = 0.9 =
 Fix the bug during load the plugin in wp page. Error to load jquery because conflict of $

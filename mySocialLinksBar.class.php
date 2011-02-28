@@ -37,7 +37,14 @@ class mySocialLinksBar {
 	public function load() {
 		wp_register_script('mySocialLinksBar_wp_load', WP_PLUGIN_URL . '/my-social-links-bar/mySocialLinksBar_wp_load.js', false, false);
 		wp_enqueue_script('mySocialLinksBar_wp_load');
+		
 	}
+
+    public function loadPath() {
+        echo '<script type="text/javascript">
+              var mySocialLinksBarWPPath = "' . WP_PLUGIN_URL . '";
+              </script>';
+    }
 
 	/**
 	 * CREATING XML TO AJAX LOAD 
